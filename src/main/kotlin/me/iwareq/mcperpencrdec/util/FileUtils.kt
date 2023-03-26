@@ -1,34 +1,14 @@
 package me.iwareq.mcperpencrdec.util
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import java.io.File
 import java.io.FileInputStream
 import java.io.IOException
 import java.nio.file.FileAlreadyExistsException
 import java.nio.file.Files
 import java.nio.file.Path
-import java.util.*
 import java.util.function.Function
-import java.util.stream.Collectors
 
 object FileUtils {
-
-	@JvmStatic
-	fun getResourcePacks(input: Path): List<Path> {
-		try {
-			Files.createDirectories(input)
-		} catch (ignored: IOException) {
-			/**/
-		}
-
-		var resourcePacks: List<Path> = ArrayList()
-		val files = input.toFile().listFiles()
-		if (files != null) {
-			resourcePacks = Arrays.stream(files).map { obj: File -> obj.toPath() }.collect(Collectors.toList())
-		}
-
-		return resourcePacks
-	}
 
 	@JvmStatic
 	fun copyOrWrite(jsonMapper: ObjectMapper, input: Path, output: Path) = try {
