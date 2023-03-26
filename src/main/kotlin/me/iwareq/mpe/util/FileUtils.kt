@@ -1,4 +1,4 @@
-package me.iwareq.mcperpencrdec.util
+package me.iwareq.mpe.util
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import java.io.FileInputStream

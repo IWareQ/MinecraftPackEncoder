@@ -1,4 +1,4 @@
-package me.iwareq.mcperpencrdec.util
+package me.iwareq.mpe.util
 
 import java.security.SecureRandom
 

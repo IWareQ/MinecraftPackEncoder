@@ -1,9 +1,9 @@
-package me.iwareq.mcperpencrdec
+package me.iwareq.mpe
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import me.iwareq.mcperpencrdec.data.Contents
-import me.iwareq.mcperpencrdec.util.Aes256Cfb8.decrypt
-import me.iwareq.mcperpencrdec.util.FileUtils.write
+import me.iwareq.mpe.data.Contents
+import me.iwareq.mpe.util.Aes256Cfb8.decrypt
+import me.iwareq.mpe.util.FileUtils.write
 import java.io.FileInputStream
 import java.nio.file.Files
 import java.nio.file.Path

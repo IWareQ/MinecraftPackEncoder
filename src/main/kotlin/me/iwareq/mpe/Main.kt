@@ -1,4 +1,4 @@
-package me.iwareq.mcperpencrdec
+package me.iwareq.mpe
 
 import java.nio.file.Paths
 import kotlin.system.exitProcess
@@ -38,6 +38,6 @@ fun main(args: Array<String>) {
 
 fun printHelp() {
 	println("Unknown parameters! Use:")
-	println("For Encrypting: java -jar MinecraftResourcePack.jar encrypt \"path/to/resource\"")
-	println("For Decrypting: java -jar MinecraftResourcePack.jar decrypt \"path/to/resource\"")
+	println("For Encrypting: java -jar MinecraftPackEncoder.jar encrypt \"path/to/resource\"")
+	println("For Decrypting: java -jar MinecraftPackEncoder.jar decrypt \"path/to/resource\"")
 }

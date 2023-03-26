@@ -1,11 +1,11 @@
-package me.iwareq.mcperpencrdec
+package me.iwareq.mpe
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import me.iwareq.mcperpencrdec.data.Contents
-import me.iwareq.mcperpencrdec.util.Aes256Cfb8.encrypt
-import me.iwareq.mcperpencrdec.util.FileUtils.copyOrWrite
-import me.iwareq.mcperpencrdec.util.FileUtils.write
-import me.iwareq.mcperpencrdec.util.KeyGenerator.generateKey
+import me.iwareq.mpe.data.Contents
+import me.iwareq.mpe.util.Aes256Cfb8.encrypt
+import me.iwareq.mpe.util.FileUtils.copyOrWrite
+import me.iwareq.mpe.util.FileUtils.write
+import me.iwareq.mpe.util.KeyGenerator.generateKey
 import java.io.File
 import java.io.FileWriter
 import java.io.IOException

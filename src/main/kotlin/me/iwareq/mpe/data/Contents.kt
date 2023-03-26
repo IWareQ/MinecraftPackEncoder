@@ -1,4 +1,4 @@
-package me.iwareq.mcperpencrdec.data
+package me.iwareq.mpe.data
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

@@ -1,4 +1,4 @@
-package me.iwareq.mcperpencrdec.util
+package me.iwareq.mpe.util
 
 import org.bouncycastle.crypto.engines.AESEngine
 import org.bouncycastle.crypto.modes.CFBBlockCipher

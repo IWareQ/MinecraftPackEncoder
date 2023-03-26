@@ -1,1 +1,1 @@
-rootProject.name = "MinecraftResourcePackEncryptOrDecrypt"
+rootProject.name = "MinecraftPackEncoder"
